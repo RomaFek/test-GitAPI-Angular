@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .repository-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .repository-list li {
+    margin-bottom: 10px;
+  }
+  
+  .repository-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .repository-link:hover {
+    text-decoration: underline;
+  }
+  
