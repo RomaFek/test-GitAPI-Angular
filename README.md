@@ -1,27 +1,13 @@
-# Asd
+Проект "Поиск пользователей GitHub и их репозиториев":
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+1. **Описание проекта:** Этот проект представляет собой веб-приложение, созданное для поиска пользователей GitHub и отображения информации о них, а также для просмотра списка и подробной информации о их репозиториях.
 
-## Development server
+2. **Основной функционал:**
+   - **Поиск пользователей GitHub:** В приложении реализован механизм поиска пользователей GitHub по их именам. Если пользователь найден, отображается основная информация о нем.
+   - **Отображение информации о пользователе:** После успешного поиска, отображается основная информация о найденном пользователе GitHub, такая как имя, аватар, описание профиля и другие данные.
+   - **Список репозиториев пользователя:** Под информацией о пользователе отображается список его репозиториев. Пользователь может выбрать любой репозиторий для просмотра более подробной информации о нем.
+   - **Детальная информация о репозитории:** При выборе репозитория открывается подробная информация о выбранном репозитории GitHub, включая его название, описание, язык программирования, количество звёзд, ветки и другие характеристики.
+   - **Сохранение текущего контекста:** Для сохранения состояния и контекста пользователя после перезагрузки страницы используется локальное хранилище браузера.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Обработка не найденных пользователей:**
+   - Если пользователь не найден в системе GitHub, приложение предоставляет соответствующее сообщение или информацию об ошибке.
